@@ -1,0 +1,26 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style-type: none;
+  outline: none;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  width: 480px;
+  min-height: 500px;
+  background: #161a2b;
+  text-align: center;
+  margin: 125px auto;
+  border-radius: 10px;
+  padding-bottom: 32px;
+}
+body {
+  background: linear-gradient(135deg, #3f51b5, #9c27b0);
+}

@@ -1,0 +1,29 @@
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.listitem {
+  margin-top: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #2c3e50;
+  padding: 10px 20px;
+  border-radius: 5px;
+  color: #fff;
+  font-size: 17px;
+}
+
+.listitem:hover {
+  background-color: #34495e;
+}
+
+.listitem span {
+  cursor: pointer;
+}
+
+.listitem span:hover {
+  color: #e74c3c;
+}
